@@ -66,4 +66,4 @@ After successful installation and proper settings new choice of payment method w
 * Initial release, bundles WordPress 4.0/4.0.1 and WooCommerce 2.2.4/2.2.8* to 1.6.0.9.
 
 
-Here's a link to [ArsenalPay website](https://arsenalpay.ru/ "ArsenalPay payment gateway") and one to [ArsenalPay support][https://arsenalpay.ru/support.html "Support"].
+Here's a link to [ArsenalPay website](https://arsenalpay.ru/ "ArsenalPay payment gateway") and one to [ArsenalPay support](https://arsenalpay.ru/support.html "Support").

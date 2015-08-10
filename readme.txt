@@ -4,7 +4,7 @@ Donate link: https://arsenalpay.ru/support.html
 Tags: payment gateway, woocommerce, payment system, e-commerce
 Requires at least: 4.0
 Requires WooCommerce at least: 2.2.4
-Tested up to: 4.0.1
+Tested up to: 4.3
 Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -23,7 +23,7 @@ Basic feature list:
 == Installation ==
 
 1. Download zip archive of the ArsenalPay plugin.
-2. Login to the WordPress admin section. 
+2. Login to the WordPress admin section.
 3. Go to **Plugins>Add New>Upload Plugin** and upload it.
 4. Click **Install Now** and then **Activate Plugin**
 
@@ -39,7 +39,7 @@ Basic feature list:
  - **css parameter**. You can specify CSS file to apply it to the view of payment frame by inserting css-file url.
  - You can specify IP address only from which it will be allowed to receive callback requests about payments from ArsenalPay onto your site in **Allowed IP address** field.
  - Your online shop will be receiving callback requests about processed payments for automatically order status change. The callbacks will being received onto the address assigned in **Callback URL** string upside of the payment plugin settings. Callback is set to address: `http(s)://yourSiteAddress/?wc-api=wc_gw_arsenalpay&arsenalpay=callback`
- - If it is needed to add one more step to check a payer order number before payment processing you should fill out the field of **Check URL** in the module settings with url-address to which ArsenalPay will be sending requests with check parameters. By default the address is the same with **Callback URL**. 
+ - If it is needed to add one more step to check a payer order number before payment processing you should fill out the field of **Check URL** in the module settings with url-address to which ArsenalPay will be sending requests with check parameters. By default the address is the same with **Callback URL**.
  - Set **Frame mode** as `1` to display payment frame inside your site, otherwise a payer will be redirected directly to the payment frame url.
  - You can adjust **width**, **height**, **frameborder** and **scrolling** of ArsenalPay payment frame by setting iframe parameters. For instance, you can insert string in format: `width="100%" height"500" frameborder="0" scrolling="no"`. Go to html standard reference for more detailes about iframe parameters.
  - You can enable/disable logging by checking/unchecking the box.
@@ -48,7 +48,7 @@ Basic feature list:
 
 == How to uninstall ==
 1. Go to **Plugins** in WordPress admin section and find **ArsenalPay** in plugin list.
-2. Click on **Deactivate**. 
+2. Click on **Deactivate**.
 3. Further you can delete files from your server by clicking on **Delete** and submitting the fact of deletion.
 
 == Usage ==
